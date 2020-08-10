@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+.calc-body {
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: rgb(128, 146, 182);
+    background: linear-gradient(180deg, rgba(128, 146, 182, 1) 0%, rgba(0, 0, 0, 0.7176004190738796) 100%);
+}
+
+.buttons {
+    width: 100px;
+    height: 60px;
+    background-color: orange;
+    margin-bottom: 40px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.buttons-long {
+    width: 300px;
+    height: 60px;
+    background-color: crimson;
+}
+
+.buttons:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: rgb(255, 93, 0);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.row>.column {
+    padding: 10px;
+}
+
+.calc-input {
+    width: 400px;
+    height: 60px;
+    color: lightblue;
+    background-color: dimgray;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 0 15px;
+    text-align: end;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    font-family: 'Quantico', sans-serif;
+    font-size: 40px;
+}
+
+.calc {
+    margin-top: 50px;
+}
